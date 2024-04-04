@@ -1,0 +1,178 @@
+  
+      body {
+        font-family: 'Edu TAS Beginner', cursive;
+        font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #efa5a5;
+        }
+
+        header {
+            background-color: #8b0808;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #df7070;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 0.5em;
+        }
+        .imggg{
+            width: 100%;
+          height: auto;
+        }
+        .container{
+            width: 100%;
+            height: auto;
+            position: relative;
+
+        }
+        .container img{
+            width: 100%;
+
+        }
+        @font-face{
+            font-family: myfont;
+            src:url(Bold.otf)
+        }
+        .pointer {
+            cursor:pointer;
+        }
+        .homie1{
+            font-family:Arial, Helvetica, sans-serif;
+            text-align:center;
+            font-size: 30px;
+        }
+        .mytext{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        .homie{
+            font-family:Arial, Helvetica, sans-serif;
+            text-align:left;
+            font-size: 24px;
+        }
+        .text{
+            font-family:myfont;
+            text-align: center;
+        }
+        .container .text{
+            position: absolute;
+            color:#8d1709;
+            left: 50%;
+            top: 50%;
+            font-size:50px;
+            transform: translate(-50%,-50%)
+        }
+
+        .hometext{
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+        section {
+            padding: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 1em;
+            margin: 1em;
+            text-align: center;
+            background-color: #fff;
+            width: 30%; /* Adjust the width to fit three products in one line */
+            box-sizing: border-box; /* Include padding and border in the total width */
+            border-radius: 24px;
+            opacity: 0.9;
+        }
+
+        footer {
+            background-color: #9b0808;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    
+        img{
+            width: 230px;
+            cursor: pointer;
+            transition-duration: 1.15s;
+        }
+
+        
+
+        .button{
+            background-color: #100e0d;
+            border: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Edu TAS Beginner', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            transition-duration: 0.15s;
+        }
+
+        .button:hover{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+        }
+
+        .button:active{
+            opacity: 0.7;
+        }
+
+        h1{
+            font-family: 'Edu TAS Beginner', cursive;
+            font-family: 'Luckiest Guy', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Permanent Marker', cursive;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .main{
+            background-color: #d07243;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            color: #fff;
+            cursor: pointer;
+        }
